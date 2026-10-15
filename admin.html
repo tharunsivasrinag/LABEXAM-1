@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>KLECommerce - Admin</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header><h1>KLECommerce</h1><p>Admin dashboard</p></header>
+  <nav><a href="index.html">Login</a><a href="user.html">Products</a><a href="admin.html">Admin</a></nav>
+  <main class="card">
+    <h2>Add a Product (Demo)</h2>
+    <form id="productForm">
+      <label for="productName">Product name</label>
+      <input id="productName" type="text" placeholder="Enter product name" required>
+      <label for="productPrice">Price (₹)</label>
+      <input id="productPrice" type="number" min="1" placeholder="Enter price" required>
+      <button type="submit">Add Product</button>
+    </form>
+    <p id="adminMessage" class="message" aria-live="polite"></p>
+  </main>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>KLECommerce - Products</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header><h1>KLECommerce</h1><p>Choose your favorite products</p></header>
+  <nav><a href="index.html">Login</a><a href="user.html">Products</a><a href="admin.html">Admin</a></nav>
+  <main>
+    <h2 class="section-title">Select Products</h2>
+    <p class="center">Cart items: <strong id="cartCount">0</strong></p>
+    <section class="products">
+      <article class="product">
+        <div class="product-icon">👕</div><h3>Men's Shirt</h3><p class="price">₹999</p>
+        <button onclick="addToCart('Men\'s Shirt')">Add to Cart</button>
+      </article>
+      <article class="product">
+        <div class="product-icon">🍚</div><h3>Rice Bag</h3><p class="price">₹1,200</p>
+        <button onclick="addToCart('Rice Bag')">Add to Cart</button>
+      </article>
+      <article class="product">
+        <div class="product-icon">📱</div><h3>Smart Phone</h3><p class="price">₹15,000</p>
+        <button onclick="addToCart('Smart Phone')">Add to Cart</button>
+      </article>
+      <article class="product">
+        <div class="product-icon">🧺</div><h3>Washing Machine</h3><p class="price">₹22,000</p>
+        <button onclick="addToCart('Washing Machine')">Add to Cart</button>
+      </article>
+    </section>
+    <p id="cartMessage" class="center message" aria-live="polite"></p>
+    <p class="center"><a class="btn" href="index.html">Back to Login</a></p>
+  </main>
+</body>
+</html>

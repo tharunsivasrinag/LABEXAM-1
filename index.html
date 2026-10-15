@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>KLECommerce - Login</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="login-page">
+  <header><h1>KLECommerce</h1><p>Shop online with ease</p></header>
+  <main class="login-card">
+    <h2>Login / Register</h2>
+    <p>Enter your details to continue shopping.</p>
+    <form id="loginForm">
+      <label for="name">Full name</label>
+      <input id="name" type="text" placeholder="Enter your name" required>
+      <label for="email">Email</label>
+      <input id="email" type="email" placeholder="Enter your email" required>
+      <label for="password">Password</label>
+      <input id="password" type="password" placeholder="Enter your password" minlength="4" required>
+      <button type="submit">Login</button>
+    </form>
+    <p id="loginMessage" class="message" aria-live="polite"></p>
+    <p class="small">Demo only: this form does not verify real accounts.</p>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>

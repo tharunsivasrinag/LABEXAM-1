@@ -1,0 +1,23 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Arial, sans-serif; background: #f2f5f9; color: #263238; }
+header { background: #0d47a1; color: white; text-align: center; padding: 20px 12px; }
+header h1 { margin: 0 0 6px; }
+header p { margin: 0; }
+nav { background: #1976d2; text-align: center; padding: 13px; }
+nav a { color: white; text-decoration: none; font-weight: bold; margin: 0 16px; }
+.card, .login-card { background: white; max-width: 520px; margin: 35px auto; padding: 25px; border-radius: 10px; box-shadow: 0 3px 12px #d0d7e2; }
+.login-card { max-width: 390px; }
+.login-card h2, .card h2 { text-align: center; color: #0d47a1; }
+label { display: block; margin: 12px 0 5px; font-weight: bold; }
+input { display: block; width: 100%; padding: 11px; border: 1px solid #b0bec5; border-radius: 5px; margin-bottom: 12px; }
+button, .btn { display: inline-block; background: #0d47a1; color: white; border: 0; padding: 11px 16px; border-radius: 5px; cursor: pointer; text-decoration: none; }
+button:hover, .btn:hover { background: #083579; }
+.login-card button { width: 100%; margin-top: 8px; }
+.section-title, .center { text-align: center; }
+.products { display: flex; justify-content: center; flex-wrap: wrap; gap: 20px; padding: 20px; }
+.product { width: 220px; background: white; border-radius: 10px; padding: 20px; text-align: center; box-shadow: 0 3px 10px #d0d7e2; }
+.product-icon { font-size: 48px; }
+.price { color: #0d47a1; font-size: 20px; font-weight: bold; }
+.message { color: #16803c; font-weight: bold; }
+.small { color: #607d8b; font-size: 12px; text-align: center; }
+@media (max-width: 520px) { nav a { margin: 0 7px; } .card, .login-card { margin: 20px 12px; } }
